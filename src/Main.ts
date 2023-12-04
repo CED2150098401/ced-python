@@ -1,1 +1,1 @@
-export { Python, PythonError } from "./Python";
+export { Python } from "./Python";

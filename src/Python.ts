@@ -1,7 +1,5 @@
 import { Process } from "@ced2023/process";
 
-export class PythonError extends Error {}
-
 export class Python extends Process<readonly string[]> {
   protected readonly command: string = "python";
   private readonly path: string;
